@@ -1,0 +1,102 @@
+[0.067s] Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20
+[0.211s] [35m[1mConsolidate compiler generated dependencies of target limo_control[0m
+[0.251s] [ 50%] [32mBuilding CXX object CMakeFiles/limo_control.dir/limo_controller.cpp.o[0m
+[5.662s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:152:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[5.662s]   152 | }
+[5.663s]       |  [01;31m[K^[m[K
+[5.663s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:7:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[5.663s]     7 | [01;36m[K{[m[K
+[5.663s]       | [01;36m[K^[m[K
+[5.694s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:[m[K In constructor ‘[01m[KLimoController::LimoController()[m[K’:
+[5.695s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_pub_[m[K’ was not declared in this scope
+[5.696s]    12 |         [01;31m[Kcmd_vel_pub_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+[5.696s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[5.732s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodom_sub_[m[K’ was not declared in this scope
+[5.733s]    15 |         [01;31m[Kodom_sub_[m[K = this->create_subscription<nav_msgs::msg::Odometry>(
+[5.733s]       |         [01;31m[K^~~~~~~~~[m[K
+[5.814s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_x_[m[K’ was not declared in this scope
+[5.814s]    19 |         [01;31m[Kgoal_x_[m[K = 2.0;  // Example goal X position
+[5.814s]       |         [01;31m[K^~~~~~~[m[K
+[5.821s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:20:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_y_[m[K’ was not declared in this scope
+[5.821s]    20 |         [01;31m[Kgoal_y_[m[K = 2.0;  // Example goal Y position
+[5.821s]       |         [01;31m[K^~~~~~~[m[K
+[5.830s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:21:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_theta_[m[K’ was not declared in this scope
+[5.830s]    21 |         [01;31m[Kgoal_theta_[m[K = 3.0;  // Example goal orientation (in radians)
+[5.830s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[5.838s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:24:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_x_[m[K’ was not declared in this scope
+[5.838s]    24 |         [01;31m[Kcurrent_x_[m[K = 0.0;
+[5.838s]       |         [01;31m[K^~~~~~~~~~[m[K
+[5.849s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:25:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_y_[m[K’ was not declared in this scope
+[5.849s]    25 |         [01;31m[Kcurrent_y_[m[K = 0.0;
+[5.849s]       |         [01;31m[K^~~~~~~~~~[m[K
+[5.859s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:26:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_theta_[m[K’ was not declared in this scope
+[5.859s]    26 |         [01;31m[Kcurrent_theta_[m[K = 0.0;
+[5.859s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.870s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:[m[K In member function ‘[01m[Kvoid LimoController::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.871s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:33:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_x_[m[K’ was not declared in this scope
+[5.871s]    33 |         [01;31m[Kcurrent_x_[m[K = msg->pose.pose.position.x;
+[5.871s]       |         [01;31m[K^~~~~~~~~~[m[K
+[5.879s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_y_[m[K’ was not declared in this scope
+[5.879s]    34 |         [01;31m[Kcurrent_y_[m[K = msg->pose.pose.position.y;
+[5.880s]       |         [01;31m[K^~~~~~~~~~[m[K
+[5.913s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_theta_[m[K’ was not declared in this scope
+[5.913s]    43 |         [01;31m[Kcurrent_theta_[m[K = atan2(2.0 * (qw * qz + qx * qy), 1.0 - 2.0 * (qy * qy + qz * qz));
+[5.915s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.927s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.927s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.928s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.928s]                  from [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:1[m[K:
+[5.929s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:[m[K In member function ‘[01m[Kvoid LimoController::control_robot()[m[K’:
+[5.929s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:88:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_x_[m[K’ was not declared in this scope
+[5.931s]    88 | rent Position: x=%.2f, y=%.2f, theta=%.2f", [01;31m[Kcurrent_x_[m[K, current_y_, current_theta_);
+[5.931s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[5.934s] 
+[5.940s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:88:101:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_y_[m[K’ was not declared in this scope
+[5.940s]    88 | n: x=%.2f, y=%.2f, theta=%.2f", current_x_, [01;31m[Kcurrent_y_[m[K, current_theta_);
+[5.940s]       |                                             [01;31m[K^~~~~~~~~~[m[K
+[5.940s] 
+[5.951s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:88:113:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_theta_[m[K’ was not declared in this scope
+[5.951s]    88 | =%.2f, theta=%.2f", current_x_, current_y_, [01;31m[Kcurrent_theta_[m[K);
+[5.951s]       |                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.951s] 
+[5.961s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:91:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_theta_[m[K’ was not declared in this scope
+[5.961s]    91 |         double goal_angle = [01;31m[Kgoal_theta_[m[K;  // Using the target goal angle directly
+[5.961s]       |                             [01;31m[K^~~~~~~~~~~[m[K
+[5.971s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:92:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_theta_[m[K’ was not declared in this scope
+[5.971s]    92 |         double angle_diff = goal_angle - [01;31m[Kcurrent_theta_[m[K;
+[5.971s]       |                                          [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.979s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:99:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_x_[m[K’ was not declared in this scope
+[5.979s]    99 |         double dx = [01;31m[Kgoal_x_[m[K - current_x_;
+[5.979s]       |                     [01;31m[K^~~~~~~[m[K
+[5.987s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:99:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_x_[m[K’ was not declared in this scope
+[5.987s]    99 |         double dx = goal_x_ - [01;31m[Kcurrent_x_[m[K;
+[5.988s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[5.995s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:100:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_y_[m[K’ was not declared in this scope
+[5.995s]   100 |         double dy = [01;31m[Kgoal_y_[m[K - current_y_;
+[5.995s]       |                     [01;31m[K^~~~~~~[m[K
+[6.003s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:100:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_y_[m[K’ was not declared in this scope
+[6.003s]   100 |         double dy = goal_y_ - [01;31m[Kcurrent_y_[m[K;
+[6.003s]       |                               [01;31m[K^~~~~~~~~~[m[K
+[6.013s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:111:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcmd_vel_msg[m[K’?
+[6.013s]   111 |             [01;31m[Kcmd_vel_pub_[m[K->publish(cmd_vel_msg);
+[6.013s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[6.013s]       |             [32m[Kcmd_vel_msg[m[K
+[6.019s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:128:9:[m[K [01;31m[Kerror: [m[K‘[01m[KIf[m[K’ was not declared in this scope
+[6.019s]   128 |         [01;31m[KIf[m[K the robot has not reached the distance threshold yet, keep moving
+[6.019s]       |         [01;31m[K^~[m[K
+[6.025s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:[m[K At global scope:
+[6.025s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:152:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[6.026s]   152 | }
+[6.026s]       |  [01;31m[K^[m[K
+[9.568s] gmake[2]: *** [CMakeFiles/limo_control.dir/build.make:76: CMakeFiles/limo_control.dir/limo_controller.cpp.o] Error 1
+[9.568s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limo_control.dir/all] Error 2
+[9.568s] gmake: *** [Makefile:146: all] Error 2
+[9.572s] Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20

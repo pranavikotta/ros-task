@@ -1,0 +1,28 @@
+[0.049s] Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20
+[0.222s] [35m[1mConsolidate compiler generated dependencies of target limo_control[0m
+[0.254s] [ 50%] [32mBuilding CXX object CMakeFiles/limo_control.dir/limo_controller.cpp.o[0m
+[19.304s] [100%] [32m[1mLinking CXX executable limo_control[0m
+[20.254s] [100%] Built target limo_control
+[20.276s] Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20
+[20.283s] Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pkotta/ros2_ws/src/ros-task/build/limo_control
+[20.305s] -- Install configuration: ""
+[20.322s] -- Installing: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/limo_control/limo_control
+[20.341s] -- Set runtime path of "/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/limo_control/limo_control" to ""
+[20.341s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch
+[20.341s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch/launch_for_controller.py
+[20.341s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/package_run_dependencies/limo_control
+[20.342s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/parent_prefix_path/limo_control
+[20.342s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.sh
+[20.343s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.dsv
+[20.343s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.sh
+[20.343s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.dsv
+[20.343s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.bash
+[20.344s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.sh
+[20.344s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.zsh
+[20.344s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.dsv
+[20.344s] -- Installing: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv
+[20.345s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/packages/limo_control
+[20.345s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig.cmake
+[20.345s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig-version.cmake
+[20.346s] -- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.xml
+[20.351s] Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pkotta/ros2_ws/src/ros-task/build/limo_control

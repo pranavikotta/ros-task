@@ -1,0 +1,40 @@
+[0.027s] Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20
+[0.125s] [35m[1mConsolidate compiler generated dependencies of target limo_control[0m
+[0.144s] [ 50%] [32mBuilding CXX object CMakeFiles/limo_control.dir/limo_controller.cpp.o[0m
+[3.571s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.572s]                  from [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:1[m[K:
+[3.572s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::control_robot()[m[K’:
+[3.572s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:48:89:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_o_[m[K’ was not declared in this scope
+[3.572s]    48 | rent Position: x=%.2f, y=%.2f, theta=%.2f", [01;31m[Kx_o_[m[K, y_o_, theta_o_);
+[3.572s]       |                                             [01;31m[K^~~~[m[K
+[3.572s] 
+[3.576s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:48:95:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_o_[m[K’ was not declared in this scope
+[3.576s]    48 | osition: x=%.2f, y=%.2f, theta=%.2f", x_o_, [01;31m[Ky_o_[m[K, theta_o_);
+[3.576s]       |                                             [01;31m[K^~~~[m[K
+[3.576s] 
+[3.583s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:48:101:[m[K [01;31m[Kerror: [m[K‘[01m[Ktheta_o_[m[K’ was not declared in this scope
+[3.583s]    48 | on: x=%.2f, y=%.2f, theta=%.2f", x_o_, y_o_, [01;31m[Ktheta_o_[m[K);
+[3.583s]       |                                              [01;31m[K^~~~~~~~[m[K
+[3.583s] 
+[3.588s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:49:78:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_g_[m[K’ was not declared in this scope
+[3.588s]    49 | ger(), "Goal Position: x_g=%.2f, y_g=%.2f", [01;31m[Kx_g_[m[K, y_g_);
+[3.588s]       |                                             [01;31m[K^~~~[m[K
+[3.588s] 
+[3.593s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:49:84:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_g_[m[K’ was not declared in this scope
+[3.593s]    49 | er(), "Goal Position: x_g=%.2f, y_g=%.2f", x_g_, [01;31m[Ky_g_[m[K);
+[3.594s]       |                                                  [01;31m[K^~~~[m[K
+[3.594s] 
+[6.509s] gmake[2]: *** [CMakeFiles/limo_control.dir/build.make:76: CMakeFiles/limo_control.dir/limo_controller.cpp.o] Error 1
+[6.509s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limo_control.dir/all] Error 2
+[6.509s] gmake: *** [Makefile:146: all] Error 2
+[6.511s] Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20

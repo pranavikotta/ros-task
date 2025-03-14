@@ -1,0 +1,286 @@
+[0.000000] (-) TimerEvent: {}
+[0.001580] (limo_control) JobQueued: {'identifier': 'limo_control', 'dependencies': OrderedDict()}
+[0.001754] (limo_simulation) JobQueued: {'identifier': 'limo_simulation', 'dependencies': OrderedDict()}
+[0.001813] (limo_control) JobStarted: {'identifier': 'limo_control'}
+[0.020779] (limo_simulation) JobStarted: {'identifier': 'limo_simulation'}
+[0.029008] (limo_control) JobProgress: {'identifier': 'limo_control', 'progress': 'cmake'}
+[0.033513] (limo_control) JobProgress: {'identifier': 'limo_control', 'progress': 'build'}
+[0.033592] (limo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pkotta/ros2_ws/src/ros-task/build/limo_control', '--', '-j20', '-l20'], 'cwd': '/home/pkotta/ros2_ws/src/ros-task/build/limo_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pkotta'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/pkotta'), ('OLDPWD', '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pkotta'), ('NAME', 'pkotta'), ('WSL_INTEROP', '/run/WSL/31332_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/prana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/prana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/prana/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'da87072b-a9dd-4c72-baa1-dae6af9b50eb'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pkotta/ros2_ws/src/ros-task/build/limo_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.048572] (limo_simulation) JobProgress: {'identifier': 'limo_simulation', 'progress': 'cmake'}
+[0.050767] (limo_simulation) JobProgress: {'identifier': 'limo_simulation', 'progress': 'build'}
+[0.057736] (limo_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation', '--', '-j20', '-l20'], 'cwd': '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pkotta'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/pkotta'), ('OLDPWD', '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pkotta'), ('NAME', 'pkotta'), ('WSL_INTEROP', '/run/WSL/31332_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/prana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/prana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/prana/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'da87072b-a9dd-4c72-baa1-dae6af9b50eb'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099746] (-) TimerEvent: {}
+[0.200501] (-) TimerEvent: {}
+[0.227683] (limo_simulation) CommandEnded: {'returncode': 0}
+[0.230559] (limo_simulation) JobProgress: {'identifier': 'limo_simulation', 'progress': 'install'}
+[0.244091] (limo_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation'], 'cwd': '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pkotta'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/pkotta'), ('OLDPWD', '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pkotta'), ('NAME', 'pkotta'), ('WSL_INTEROP', '/run/WSL/31332_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/prana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/prana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/prana/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'da87072b-a9dd-4c72-baa1-dae6af9b50eb'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.246061] (limo_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target limo_control\x1b[0m\n'}
+[0.255150] (limo_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.257171] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/launch\n'}
+[0.257389] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/launch/limo.launch.py\n'}
+[0.257521] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes\n'}
+[0.258270] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_wheel.stl\n'}
+[0.258464] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base.stl\n'}
+[0.258588] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base_decimated.dae\n'}
+[0.258682] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_wheel.dae\n'}
+[0.258745] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base.dae\n'}
+[0.258806] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf\n'}
+[0.258893] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_four_diff.gazebo\n'}
+[0.258999] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_four_diff.xacro\n'}
+[0.259101] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_xacro.xacro\n'}
+[0.259208] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/worlds\n'}
+[0.259319] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/worlds/empty.sdf\n'}
+[0.259814] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/package_run_dependencies/limo_simulation\n'}
+[0.260273] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/parent_prefix_path/limo_simulation\n'}
+[0.260713] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/ament_prefix_path.sh\n'}
+[0.261216] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/ament_prefix_path.dsv\n'}
+[0.261696] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/path.sh\n'}
+[0.261869] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/path.dsv\n'}
+[0.261989] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.bash\n'}
+[0.262474] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.sh\n'}
+[0.262903] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.zsh\n'}
+[0.263047] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.dsv\n'}
+[0.263156] (limo_simulation) StdoutLine: {'line': b'-- Installing: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.dsv\n'}
+[0.266247] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/packages/limo_simulation\n'}
+[0.266825] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.267036] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/limo_simulationConfig.cmake\n'}
+[0.267531] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/limo_simulationConfig-version.cmake\n'}
+[0.267712] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.xml\n'}
+[0.269712] (limo_simulation) CommandEnded: {'returncode': 0}
+[0.291366] (limo_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/limo_control.dir/limo_controller.cpp.o\x1b[0m\n'}
+[0.300925] (-) TimerEvent: {}
+[0.317084] (limo_simulation) JobEnded: {'identifier': 'limo_simulation', 'rc': 0}
+[0.401745] (-) TimerEvent: {}
+[0.503056] (-) TimerEvent: {}
+[0.606928] (-) TimerEvent: {}
+[0.710792] (-) TimerEvent: {}
+[0.814666] (-) TimerEvent: {}
+[0.918544] (-) TimerEvent: {}
+[1.022850] (-) TimerEvent: {}
+[1.126441] (-) TimerEvent: {}
+[1.230411] (-) TimerEvent: {}
+[1.334284] (-) TimerEvent: {}
+[1.438173] (-) TimerEvent: {}
+[1.542061] (-) TimerEvent: {}
+[1.646052] (-) TimerEvent: {}
+[1.749997] (-) TimerEvent: {}
+[1.853845] (-) TimerEvent: {}
+[1.957800] (-) TimerEvent: {}
+[2.061723] (-) TimerEvent: {}
+[2.165751] (-) TimerEvent: {}
+[2.269797] (-) TimerEvent: {}
+[2.373768] (-) TimerEvent: {}
+[2.476379] (-) TimerEvent: {}
+[2.576929] (-) TimerEvent: {}
+[2.677466] (-) TimerEvent: {}
+[2.777972] (-) TimerEvent: {}
+[2.878485] (-) TimerEvent: {}
+[2.979013] (-) TimerEvent: {}
+[3.079542] (-) TimerEvent: {}
+[3.180061] (-) TimerEvent: {}
+[3.280617] (-) TimerEvent: {}
+[3.381157] (-) TimerEvent: {}
+[3.481701] (-) TimerEvent: {}
+[3.582299] (-) TimerEvent: {}
+[3.683051] (-) TimerEvent: {}
+[3.783547] (-) TimerEvent: {}
+[3.884162] (-) TimerEvent: {}
+[3.984950] (-) TimerEvent: {}
+[4.085626] (-) TimerEvent: {}
+[4.186237] (-) TimerEvent: {}
+[4.286920] (-) TimerEvent: {}
+[4.387646] (-) TimerEvent: {}
+[4.488226] (-) TimerEvent: {}
+[4.588752] (-) TimerEvent: {}
+[4.689252] (-) TimerEvent: {}
+[4.789768] (-) TimerEvent: {}
+[4.890937] (-) TimerEvent: {}
+[4.991486] (-) TimerEvent: {}
+[5.091982] (-) TimerEvent: {}
+[5.192484] (-) TimerEvent: {}
+[5.293003] (-) TimerEvent: {}
+[5.393562] (-) TimerEvent: {}
+[5.494302] (-) TimerEvent: {}
+[5.598293] (-) TimerEvent: {}
+[5.702226] (-) TimerEvent: {}
+[5.805654] (-) TimerEvent: {}
+[5.909390] (-) TimerEvent: {}
+[6.013114] (-) TimerEvent: {}
+[6.116842] (-) TimerEvent: {}
+[6.220662] (-) TimerEvent: {}
+[6.324642] (-) TimerEvent: {}
+[6.428312] (-) TimerEvent: {}
+[6.532572] (-) TimerEvent: {}
+[6.637038] (-) TimerEvent: {}
+[6.741085] (-) TimerEvent: {}
+[6.845081] (-) TimerEvent: {}
+[6.948951] (-) TimerEvent: {}
+[7.052892] (-) TimerEvent: {}
+[7.156818] (-) TimerEvent: {}
+[7.260699] (-) TimerEvent: {}
+[7.382971] (-) TimerEvent: {}
+[7.486452] (-) TimerEvent: {}
+[7.590176] (-) TimerEvent: {}
+[7.693963] (-) TimerEvent: {}
+[7.797767] (-) TimerEvent: {}
+[7.901542] (-) TimerEvent: {}
+[8.005426] (-) TimerEvent: {}
+[8.109498] (-) TimerEvent: {}
+[8.213628] (-) TimerEvent: {}
+[8.318900] (-) TimerEvent: {}
+[8.422955] (-) TimerEvent: {}
+[8.526455] (-) TimerEvent: {}
+[8.630836] (-) TimerEvent: {}
+[8.734807] (-) TimerEvent: {}
+[8.838707] (-) TimerEvent: {}
+[8.942654] (-) TimerEvent: {}
+[9.046761] (-) TimerEvent: {}
+[9.150692] (-) TimerEvent: {}
+[9.254304] (-) TimerEvent: {}
+[9.358322] (-) TimerEvent: {}
+[9.462267] (-) TimerEvent: {}
+[9.566464] (-) TimerEvent: {}
+[9.670866] (-) TimerEvent: {}
+[9.775124] (-) TimerEvent: {}
+[9.879279] (-) TimerEvent: {}
+[9.983429] (-) TimerEvent: {}
+[10.087741] (-) TimerEvent: {}
+[10.192024] (-) TimerEvent: {}
+[10.295637] (-) TimerEvent: {}
+[10.399653] (-) TimerEvent: {}
+[10.503901] (-) TimerEvent: {}
+[10.605638] (-) TimerEvent: {}
+[10.706456] (-) TimerEvent: {}
+[10.807164] (-) TimerEvent: {}
+[10.908151] (-) TimerEvent: {}
+[11.008835] (-) TimerEvent: {}
+[11.109565] (-) TimerEvent: {}
+[11.210103] (-) TimerEvent: {}
+[11.310965] (-) TimerEvent: {}
+[11.411604] (-) TimerEvent: {}
+[11.513206] (-) TimerEvent: {}
+[11.613963] (-) TimerEvent: {}
+[11.714926] (-) TimerEvent: {}
+[11.815486] (-) TimerEvent: {}
+[11.916217] (-) TimerEvent: {}
+[12.017196] (-) TimerEvent: {}
+[12.119698] (-) TimerEvent: {}
+[12.220348] (-) TimerEvent: {}
+[12.321009] (-) TimerEvent: {}
+[12.421718] (-) TimerEvent: {}
+[12.523391] (-) TimerEvent: {}
+[12.624113] (-) TimerEvent: {}
+[12.724805] (-) TimerEvent: {}
+[12.826546] (-) TimerEvent: {}
+[12.927364] (-) TimerEvent: {}
+[13.028038] (-) TimerEvent: {}
+[13.129003] (-) TimerEvent: {}
+[13.229594] (-) TimerEvent: {}
+[13.330223] (-) TimerEvent: {}
+[13.430895] (-) TimerEvent: {}
+[13.531649] (-) TimerEvent: {}
+[13.632302] (-) TimerEvent: {}
+[13.737208] (-) TimerEvent: {}
+[13.842198] (-) TimerEvent: {}
+[13.945835] (-) TimerEvent: {}
+[14.050760] (-) TimerEvent: {}
+[14.156304] (-) TimerEvent: {}
+[14.261218] (-) TimerEvent: {}
+[14.362479] (-) TimerEvent: {}
+[14.468308] (-) TimerEvent: {}
+[14.573210] (-) TimerEvent: {}
+[14.678022] (-) TimerEvent: {}
+[14.783369] (-) TimerEvent: {}
+[14.888278] (-) TimerEvent: {}
+[14.992576] (-) TimerEvent: {}
+[15.097560] (-) TimerEvent: {}
+[15.202509] (-) TimerEvent: {}
+[15.307296] (-) TimerEvent: {}
+[15.408409] (-) TimerEvent: {}
+[15.513716] (-) TimerEvent: {}
+[15.618531] (-) TimerEvent: {}
+[15.723411] (-) TimerEvent: {}
+[15.828188] (-) TimerEvent: {}
+[15.932927] (-) TimerEvent: {}
+[16.036877] (-) TimerEvent: {}
+[16.141663] (-) TimerEvent: {}
+[16.246529] (-) TimerEvent: {}
+[16.351559] (-) TimerEvent: {}
+[16.452943] (-) TimerEvent: {}
+[16.558762] (-) TimerEvent: {}
+[16.663728] (-) TimerEvent: {}
+[16.769298] (-) TimerEvent: {}
+[16.874248] (-) TimerEvent: {}
+[16.979073] (-) TimerEvent: {}
+[17.083433] (-) TimerEvent: {}
+[17.189276] (-) TimerEvent: {}
+[17.294459] (-) TimerEvent: {}
+[17.400196] (-) TimerEvent: {}
+[17.502005] (-) TimerEvent: {}
+[17.607767] (-) TimerEvent: {}
+[17.711322] (-) TimerEvent: {}
+[17.812801] (-) TimerEvent: {}
+[17.917788] (-) TimerEvent: {}
+[18.022740] (-) TimerEvent: {}
+[18.127317] (-) TimerEvent: {}
+[18.227970] (-) TimerEvent: {}
+[18.332131] (-) TimerEvent: {}
+[18.436947] (-) TimerEvent: {}
+[18.538363] (-) TimerEvent: {}
+[18.644298] (-) TimerEvent: {}
+[18.749265] (-) TimerEvent: {}
+[18.853096] (-) TimerEvent: {}
+[18.955002] (-) TimerEvent: {}
+[19.056879] (-) TimerEvent: {}
+[19.158863] (-) TimerEvent: {}
+[19.199823] (limo_control) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable limo_control\x1b[0m\n'}
+[19.259168] (-) TimerEvent: {}
+[19.378082] (-) TimerEvent: {}
+[19.480001] (-) TimerEvent: {}
+[19.581039] (-) TimerEvent: {}
+[19.682751] (-) TimerEvent: {}
+[19.784665] (-) TimerEvent: {}
+[19.886473] (-) TimerEvent: {}
+[19.988232] (-) TimerEvent: {}
+[20.089949] (-) TimerEvent: {}
+[20.191517] (-) TimerEvent: {}
+[20.293408] (-) TimerEvent: {}
+[20.395212] (-) TimerEvent: {}
+[20.497174] (-) TimerEvent: {}
+[20.597770] (-) TimerEvent: {}
+[20.699666] (-) TimerEvent: {}
+[20.801574] (-) TimerEvent: {}
+[20.903430] (-) TimerEvent: {}
+[21.005250] (-) TimerEvent: {}
+[21.106998] (-) TimerEvent: {}
+[21.208731] (-) TimerEvent: {}
+[21.310409] (-) TimerEvent: {}
+[21.412481] (-) TimerEvent: {}
+[21.456750] (limo_control) StdoutLine: {'line': b'[100%] Built target limo_control\n'}
+[21.480422] (limo_control) CommandEnded: {'returncode': 0}
+[21.484254] (limo_control) JobProgress: {'identifier': 'limo_control', 'progress': 'install'}
+[21.489863] (limo_control) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pkotta/ros2_ws/src/ros-task/build/limo_control'], 'cwd': '/home/pkotta/ros2_ws/src/ros-task/build/limo_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pkotta'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/pkotta'), ('OLDPWD', '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pkotta'), ('NAME', 'pkotta'), ('WSL_INTEROP', '/run/WSL/31332_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/prana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/prana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/prana/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', 'da87072b-a9dd-4c72-baa1-dae6af9b50eb'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pkotta/ros2_ws/src/ros-task/build/limo_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[21.501896] (limo_control) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.504008] (limo_control) StdoutLine: {'line': b'-- Installing: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/limo_control/limo_control\n'}
+[21.512757] (-) TimerEvent: {}
+[21.529251] (limo_control) StdoutLine: {'line': b'-- Set runtime path of "/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/limo_control/limo_control" to ""\n'}
+[21.530104] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch\n'}
+[21.531085] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch/launch_for_controller.py\n'}
+[21.531974] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/package_run_dependencies/limo_control\n'}
+[21.533018] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/parent_prefix_path/limo_control\n'}
+[21.533735] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.sh\n'}
+[21.534243] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.dsv\n'}
+[21.534792] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.sh\n'}
+[21.535709] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.dsv\n'}
+[21.535884] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.bash\n'}
+[21.535987] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.sh\n'}
+[21.536082] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.zsh\n'}
+[21.536177] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.dsv\n'}
+[21.536294] (limo_control) StdoutLine: {'line': b'-- Installing: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv\n'}
+[21.536851] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/packages/limo_control\n'}
+[21.537520] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig.cmake\n'}
+[21.537781] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig-version.cmake\n'}
+[21.538044] (limo_control) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.xml\n'}
+[21.541732] (limo_control) CommandEnded: {'returncode': 0}
+[21.578017] (limo_control) JobEnded: {'identifier': 'limo_control', 'rc': 0}
+[21.581382] (-) EventReactorShutdown: {}

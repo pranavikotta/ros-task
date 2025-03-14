@@ -79,11 +79,24 @@ def generate_launch_description():
         ]
     )
 
+    #added controller_node executable
+    controller_node = Node(
+        package='limo_control',
+        executable='limo_control',
+        name='controller_node',
+        parameters=[{ #amenable to change
+                # 'target_x': 3.0,
+                # 'target_y': 3.0,
+                # 'target_theta': 3.0
+            }]
+    )
+
     return LaunchDescription([
         DeclareLaunchArgument("use_sim_time", default_value=use_sim_time),
         DeclareLaunchArgument("world_file", default_value=world_file),
         robot_state_publisher,
         gz_spawn_entity,
         gz_sim,
-        gz_ros2_bridge
+        gz_ros2_bridge,
+        controller_node
     ])

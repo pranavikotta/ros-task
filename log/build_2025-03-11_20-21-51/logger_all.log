@@ -1,0 +1,283 @@
+[0.367s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.368s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ff4299270a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff429926080>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff429926080>>)
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.743s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.744s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.744s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pkotta/ros2_ws/src/ros-task'
+[0.744s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.762s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.763s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ignore', 'ignore_ament_install']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ignore_ament_install'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_pkg']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_pkg'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['colcon_meta']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'colcon_meta'
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['ros']
+[0.764s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'ros'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['cmake', 'python']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'cmake'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extensions ['python_setup_py']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(docker) by extension 'python_setup_py'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.765s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.766s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extensions ['ignore', 'ignore_ament_install']
+[0.767s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'ignore'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'ignore_ament_install'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extensions ['colcon_pkg']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'colcon_pkg'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extensions ['colcon_meta']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'colcon_meta'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extensions ['ros']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'ros'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extensions ['cmake', 'python']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'cmake'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'python'
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extensions ['python_setup_py']
+[0.768s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/build) by extension 'python_setup_py'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extensions ['ignore', 'ignore_ament_install']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extension 'ignore'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extension 'ignore_ament_install'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extensions ['colcon_pkg']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extension 'colcon_pkg'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extensions ['colcon_meta']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extension 'colcon_meta'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extensions ['ros']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extension 'ros'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extensions ['cmake', 'python']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extension 'cmake'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extension 'python'
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extensions ['python_setup_py']
+[0.769s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/deploy) by extension 'python_setup_py'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['ignore', 'ignore_ament_install']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'ignore'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'ignore_ament_install'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['colcon_pkg']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'colcon_pkg'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['colcon_meta']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'colcon_meta'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['ros']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'ros'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['cmake', 'python']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'cmake'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'python'
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extensions ['python_setup_py']
+[0.770s] Level 1:colcon.colcon_core.package_identification:_identify(scripts/setup) by extension 'python_setup_py'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['ignore', 'ignore_ament_install']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'ignore'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'ignore_ament_install'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['colcon_pkg']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'colcon_pkg'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['colcon_meta']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'colcon_meta'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['ros']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'ros'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['cmake', 'python']
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'cmake'
+[0.771s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'python'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extensions ['python_setup_py']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(workspace) by extension 'python_setup_py'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/build) by extensions ['ignore', 'ignore_ament_install']
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/build) by extension 'ignore'
+[0.772s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/build) ignored
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/install) by extensions ['ignore', 'ignore_ament_install']
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/install) by extension 'ignore'
+[0.773s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/install) ignored
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extension 'ignore'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extension 'ignore_ament_install'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extensions ['colcon_pkg']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extension 'colcon_pkg'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extensions ['colcon_meta']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extension 'colcon_meta'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extensions ['ros']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_control) by extension 'ros'
+[0.779s] DEBUG:colcon.colcon_core.package_identification:Package 'workspace/limo_control' with type 'ros.ament_cmake' and name 'limo_control'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extension 'ignore'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extension 'ignore_ament_install'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extensions ['colcon_pkg']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extension 'colcon_pkg'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extensions ['colcon_meta']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extension 'colcon_meta'
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extensions ['ros']
+[0.779s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/limo_simulation) by extension 'ros'
+[0.780s] DEBUG:colcon.colcon_core.package_identification:Package 'workspace/limo_simulation' with type 'ros.ament_cmake' and name 'limo_simulation'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/log) by extensions ['ignore', 'ignore_ament_install']
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/log) by extension 'ignore'
+[0.781s] Level 1:colcon.colcon_core.package_identification:_identify(workspace/log) ignored
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.781s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.830s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.837s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 307 installed packages in /opt/ros/humble
+[0.848s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'cmake_target' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.938s] Level 5:colcon.colcon_core.verb:set package 'limo_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.938s] DEBUG:colcon.colcon_core.verb:Building package 'limo_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pkotta/ros2_ws/src/ros-task/build/limo_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pkotta/ros2_ws/src/ros-task/install/limo_control', 'merge_install': False, 'path': '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control', 'symlink_install': False, 'test_result_base': None}
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'cmake_target' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.939s] Level 5:colcon.colcon_core.verb:set package 'limo_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.939s] DEBUG:colcon.colcon_core.verb:Building package 'limo_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation', 'merge_install': False, 'path': '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.939s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.941s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.941s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control' with build type 'ament_cmake'
+[0.941s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control'
+[0.947s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.947s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.947s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.952s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_simulation' with build type 'ament_cmake'
+[0.953s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_simulation'
+[0.953s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.967s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20
+[0.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_simulation -- -j20 -l20
+[1.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_simulation -- -j20 -l20
+[1.057s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pkotta/ros2_ws/src/ros-task/build/limo_simulation
+[1.077s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_simulation)
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pkotta/ros2_ws/src/ros-task/build/limo_simulation
+[1.084s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation' for CMake module files
+[1.085s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation' for CMake config files
+[1.087s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_simulation', 'cmake_prefix_path')
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/hook/cmake_prefix_path.ps1'
+[1.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/hook/cmake_prefix_path.dsv'
+[1.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/hook/cmake_prefix_path.sh'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/bin'
+[1.090s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/lib/pkgconfig/limo_simulation.pc'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/lib/python3.10/site-packages'
+[1.091s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/bin'
+[1.091s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.ps1'
+[1.092s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.dsv'
+[1.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.sh'
+[1.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.bash'
+[1.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.zsh'
+[1.096s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/colcon-core/packages/limo_simulation)
+[1.097s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_simulation)
+[1.097s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation' for CMake module files
+[1.098s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation' for CMake config files
+[1.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_simulation', 'cmake_prefix_path')
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/hook/cmake_prefix_path.ps1'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/hook/cmake_prefix_path.sh'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/bin'
+[1.099s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/lib/pkgconfig/limo_simulation.pc'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/lib/python3.10/site-packages'
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/bin'
+[1.100s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.ps1'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.dsv'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.sh'
+[1.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.bash'
+[1.102s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.zsh'
+[1.102s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/colcon-core/packages/limo_simulation)
+[13.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20
+[13.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pkotta/ros2_ws/src/ros-task/build/limo_control
+[13.682s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_control)
+[13.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pkotta/ros2_ws/src/ros-task/build/limo_control
+[13.683s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control' for CMake module files
+[13.684s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control' for CMake config files
+[13.688s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_control', 'cmake_prefix_path')
+[13.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/hook/cmake_prefix_path.ps1'
+[13.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/hook/cmake_prefix_path.dsv'
+[13.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/hook/cmake_prefix_path.sh'
+[13.690s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib'
+[13.691s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/bin'
+[13.691s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/pkgconfig/limo_control.pc'
+[13.691s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/python3.10/site-packages'
+[13.691s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/bin'
+[13.692s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.ps1'
+[13.692s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv'
+[13.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.sh'
+[13.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.bash'
+[13.693s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.zsh'
+[13.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/colcon-core/packages/limo_control)
+[13.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(limo_control)
+[13.695s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control' for CMake module files
+[13.695s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control' for CMake config files
+[13.695s] Level 1:colcon.colcon_core.shell:create_environment_hook('limo_control', 'cmake_prefix_path')
+[13.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/hook/cmake_prefix_path.ps1'
+[13.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/hook/cmake_prefix_path.dsv'
+[13.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/hook/cmake_prefix_path.sh'
+[13.697s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib'
+[13.697s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/bin'
+[13.697s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/pkgconfig/limo_control.pc'
+[13.697s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/python3.10/site-packages'
+[13.698s] Level 1:colcon.colcon_core.environment:checking '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/bin'
+[13.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.ps1'
+[13.698s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv'
+[13.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.sh'
+[13.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.bash'
+[13.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.zsh'
+[13.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/colcon-core/packages/limo_control)
+[13.700s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[13.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[13.701s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[13.701s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[14.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[14.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[14.067s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[14.067s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[14.067s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[14.067s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[14.068s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pkotta/ros2_ws/src/ros-task/install/local_setup.ps1'
+[14.070s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pkotta/ros2_ws/src/ros-task/install/_local_setup_util_ps1.py'
+[14.073s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pkotta/ros2_ws/src/ros-task/install/setup.ps1'
+[14.075s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pkotta/ros2_ws/src/ros-task/install/local_setup.sh'
+[14.077s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pkotta/ros2_ws/src/ros-task/install/_local_setup_util_sh.py'
+[14.078s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pkotta/ros2_ws/src/ros-task/install/setup.sh'
+[14.080s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pkotta/ros2_ws/src/ros-task/install/local_setup.bash'
+[14.081s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pkotta/ros2_ws/src/ros-task/install/setup.bash'
+[14.083s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pkotta/ros2_ws/src/ros-task/install/local_setup.zsh'
+[14.084s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pkotta/ros2_ws/src/ros-task/install/setup.zsh'

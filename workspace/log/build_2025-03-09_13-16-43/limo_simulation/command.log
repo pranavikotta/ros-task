@@ -1,0 +1,4 @@
+Invoking command in '/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_simulation -- -j20 -l20
+Invoked command in '/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_simulation -- -j20 -l20
+Invoking command in '/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_simulation
+Invoked command in '/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_simulation

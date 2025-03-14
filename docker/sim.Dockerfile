@@ -7,7 +7,11 @@ RUN apt-get update && apt-get upgrade -y
 ENV NVIDIA_VISIBLE_DEVICES=all
 ENV NVIDIA_DRIVER_CAPABILITIES=all
 
+# set display env variable for X11
+ENV DISPLAY=:0
+
 RUN apt-get install --no-install-recommends -y \
+    apt-utils \
     software-properties-common \
     vim \
     python3-pip \

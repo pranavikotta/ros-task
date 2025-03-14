@@ -1,0 +1,10 @@
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/uninstall.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/limo_control_uninstall.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/limo_control.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/test.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/edit_cache.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/rebuild_cache.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/list_install_components.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/install.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/install/local.dir
+/home/pkotta/ros2_ws/src/ros-task/workspace/build/limo_control/CMakeFiles/install/strip.dir

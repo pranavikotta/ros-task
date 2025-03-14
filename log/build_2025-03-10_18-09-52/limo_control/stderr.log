@@ -1,0 +1,7 @@
+[01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:[m[K In constructor ‘[01m[KLimoController::LimoController()[m[K’:
+[01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:13:36:[m[K [01;31m[Kerror: [m[K‘[01m[KLimoControllerController[m[K’ has not been declared
+   13 |             "odom", 10, std::bind(&[01;31m[KLimoControllerController[m[K::odom_callback, this, std::placeholders::_1));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/limo_control.dir/build.make:76: CMakeFiles/limo_control.dir/limo_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limo_control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

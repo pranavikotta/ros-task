@@ -1,0 +1,211 @@
+[0.000000] (-) TimerEvent: {}
+[0.000304] (limo_control) JobQueued: {'identifier': 'limo_control', 'dependencies': OrderedDict()}
+[0.000932] (limo_simulation) JobQueued: {'identifier': 'limo_simulation', 'dependencies': OrderedDict()}
+[0.002418] (limo_control) JobStarted: {'identifier': 'limo_control'}
+[0.016625] (limo_simulation) JobStarted: {'identifier': 'limo_simulation'}
+[0.025482] (limo_control) JobProgress: {'identifier': 'limo_control', 'progress': 'cmake'}
+[0.027067] (limo_control) JobProgress: {'identifier': 'limo_control', 'progress': 'build'}
+[0.028655] (limo_control) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pkotta/ros2_ws/src/ros-task/build/limo_control', '--', '-j20', '-l20'], 'cwd': '/home/pkotta/ros2_ws/src/ros-task/build/limo_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pkotta'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/pkotta'), ('OLDPWD', '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pkotta'), ('NAME', 'pkotta'), ('WSL_INTEROP', '/run/WSL/55351_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/prana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/prana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/prana/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '787cd39c-375f-4b02-9e66-6a0c8f4fa237'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pkotta/ros2_ws/src/ros-task/build/limo_control'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039529] (limo_simulation) JobProgress: {'identifier': 'limo_simulation', 'progress': 'cmake'}
+[0.041244] (limo_simulation) JobProgress: {'identifier': 'limo_simulation', 'progress': 'build'}
+[0.045719] (limo_simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation', '--', '-j20', '-l20'], 'cwd': '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pkotta'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/pkotta'), ('OLDPWD', '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pkotta'), ('NAME', 'pkotta'), ('WSL_INTEROP', '/run/WSL/55351_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/prana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/prana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/prana/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '787cd39c-375f-4b02-9e66-6a0c8f4fa237'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100261] (-) TimerEvent: {}
+[0.166010] (limo_simulation) CommandEnded: {'returncode': 0}
+[0.172841] (limo_simulation) JobProgress: {'identifier': 'limo_simulation', 'progress': 'install'}
+[0.175016] (limo_control) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target limo_control\x1b[0m\n'}
+[0.184635] (limo_simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation'], 'cwd': '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pkotta'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/pkotta'), ('OLDPWD', '/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('_colcon_cd_root', '/opt/ros/foxy/'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pkotta'), ('NAME', 'pkotta'), ('WSL_INTEROP', '/run/WSL/55351_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Windows Kits/8.1/Windows Performance Toolkit/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Python312/:/mnt/c/Users/prana/AppData/Local/Programs/Python/Launcher/:/mnt/c/Users/prana/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/prana/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/prana/AppData/Roaming/npm:/snap/bin'), ('WT_SESSION', '787cd39c-375f-4b02-9e66-6a0c8f4fa237'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/pkotta/ros2_ws/src/ros-task/build/limo_simulation'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.198805] (limo_simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.199409] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/launch\n'}
+[0.199849] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/launch/limo.launch.py\n'}
+[0.200108] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes\n'}
+[0.200372] (-) TimerEvent: {}
+[0.201168] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_wheel.stl\n'}
+[0.201341] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base.stl\n'}
+[0.201431] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base_decimated.dae\n'}
+[0.202029] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_wheel.dae\n'}
+[0.202280] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/meshes/limo_base.dae\n'}
+[0.202542] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf\n'}
+[0.202663] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_four_diff.gazebo\n'}
+[0.202746] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_four_diff.xacro\n'}
+[0.202823] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/urdf/limo_xacro.xacro\n'}
+[0.202925] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/worlds\n'}
+[0.203323] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/worlds/empty.sdf\n'}
+[0.203480] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/package_run_dependencies/limo_simulation\n'}
+[0.203562] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/parent_prefix_path/limo_simulation\n'}
+[0.204038] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/ament_prefix_path.sh\n'}
+[0.204333] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/ament_prefix_path.dsv\n'}
+[0.204614] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/path.sh\n'}
+[0.204755] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/environment/path.dsv\n'}
+[0.204833] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.bash\n'}
+[0.204906] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.sh\n'}
+[0.205034] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.zsh\n'}
+[0.205115] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/local_setup.dsv\n'}
+[0.205186] (limo_control) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/limo_control.dir/limo_controller.cpp.o\x1b[0m\n'}
+[0.205276] (limo_simulation) StdoutLine: {'line': b'-- Installing: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.dsv\n'}
+[0.205813] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/ament_index/resource_index/packages/limo_simulation\n'}
+[0.206000] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.206184] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/limo_simulationConfig.cmake\n'}
+[0.206270] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/cmake/limo_simulationConfig-version.cmake\n'}
+[0.206412] (limo_simulation) StdoutLine: {'line': b'-- Up-to-date: /home/pkotta/ros2_ws/src/ros-task/install/limo_simulation/share/limo_simulation/package.xml\n'}
+[0.208640] (limo_simulation) CommandEnded: {'returncode': 0}
+[0.251300] (limo_simulation) JobEnded: {'identifier': 'limo_simulation', 'rc': 0}
+[0.301607] (-) TimerEvent: {}
+[0.408085] (-) TimerEvent: {}
+[0.514409] (-) TimerEvent: {}
+[0.620747] (-) TimerEvent: {}
+[0.722794] (-) TimerEvent: {}
+[0.829124] (-) TimerEvent: {}
+[0.935412] (-) TimerEvent: {}
+[1.041816] (-) TimerEvent: {}
+[1.148196] (-) TimerEvent: {}
+[1.254452] (-) TimerEvent: {}
+[1.360743] (-) TimerEvent: {}
+[1.467015] (-) TimerEvent: {}
+[1.573282] (-) TimerEvent: {}
+[1.679758] (-) TimerEvent: {}
+[1.786154] (-) TimerEvent: {}
+[1.891427] (-) TimerEvent: {}
+[1.997722] (-) TimerEvent: {}
+[2.104903] (-) TimerEvent: {}
+[2.211281] (-) TimerEvent: {}
+[2.317923] (-) TimerEvent: {}
+[2.424230] (-) TimerEvent: {}
+[2.530531] (-) TimerEvent: {}
+[2.636835] (-) TimerEvent: {}
+[2.743100] (-) TimerEvent: {}
+[2.849405] (-) TimerEvent: {}
+[2.954982] (-) TimerEvent: {}
+[3.061218] (-) TimerEvent: {}
+[3.167527] (-) TimerEvent: {}
+[3.273819] (-) TimerEvent: {}
+[3.280123] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:118:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[3.280351] (limo_control) StderrLine: {'line': b'  118 | }\n'}
+[3.280613] (limo_control) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.280683] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:7:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.280740] (limo_control) StderrLine: {'line': b'    7 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[3.280789] (limo_control) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[3.290250] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KLimoController::LimoController()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.290434] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:12:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.290503] (limo_control) StderrLine: {'line': b'   12 |         \x1b[01;31m\x1b[Kcmd_vel_pub_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);\n'}
+[3.290583] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.304360] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:15:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kodom_sub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.304552] (limo_control) StderrLine: {'line': b'   15 |         \x1b[01;31m\x1b[Kodom_sub_\x1b[m\x1b[K = this->create_subscription<nav_msgs::msg::Odometry>(\n'}
+[3.304615] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.367745] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:19:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.367985] (limo_control) StderrLine: {'line': b'   19 |         \x1b[01;31m\x1b[Kgoal_x_\x1b[m\x1b[K = 2.0;  // Example goal X position\n'}
+[3.368067] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.374030] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:20:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.374212] (-) TimerEvent: {}
+[3.374354] (limo_control) StderrLine: {'line': b'   20 |         \x1b[01;31m\x1b[Kgoal_y_\x1b[m\x1b[K = 2.0;  // Example goal Y position\n'}
+[3.374451] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.381378] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:21:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_theta_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.381501] (limo_control) StderrLine: {'line': b'   21 |         \x1b[01;31m\x1b[Kgoal_theta_\x1b[m\x1b[K = 0.0;  // Example goal orientation (in radians)\n'}
+[3.381557] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.388438] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:24:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.388603] (limo_control) StderrLine: {'line': b'   24 |         \x1b[01;31m\x1b[Kcurrent_x_\x1b[m\x1b[K = 0.0;\n'}
+[3.388660] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.395278] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:25:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.395410] (limo_control) StderrLine: {'line': b'   25 |         \x1b[01;31m\x1b[Kcurrent_y_\x1b[m\x1b[K = 0.0;\n'}
+[3.395469] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.403523] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:26:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_theta_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.403647] (limo_control) StderrLine: {'line': b'   26 |         \x1b[01;31m\x1b[Kcurrent_theta_\x1b[m\x1b[K = 0.0;\n'}
+[3.403704] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.413907] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LimoController::odom_callback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.414045] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:33:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.414116] (limo_control) StderrLine: {'line': b'   33 |         \x1b[01;31m\x1b[Kcurrent_x_\x1b[m\x1b[K = msg->pose.pose.position.x;\n'}
+[3.414167] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.420774] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:34:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.420904] (limo_control) StderrLine: {'line': b'   34 |         \x1b[01;31m\x1b[Kcurrent_y_\x1b[m\x1b[K = msg->pose.pose.position.y;\n'}
+[3.420962] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.428994] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:43:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_theta_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.429098] (limo_control) StderrLine: {'line': b'   43 |         \x1b[01;31m\x1b[Kcurrent_theta_\x1b[m\x1b[K = atan2(2.0 * (qw * qz + qx * qy), 1.0 - 2.0 * (qy * qy + qz * qz));\n'}
+[3.429158] (limo_control) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.436393] (limo_control) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.436521] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.436581] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.436631] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.436677] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.436719] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.436763] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.436806] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.436849] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.436894] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.436936] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.436977] (limo_control) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:1\x1b[m\x1b[K:\n'}
+[3.437021] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LimoController::control_robot()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.437067] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:53:89:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.437110] (limo_control) StderrLine: {'line': b'   53 | rent Position: x=%.2f, y=%.2f, theta=%.2f", \x1b[01;31m\x1b[Kcurrent_x_\x1b[m\x1b[K, current_y_, current_theta_);\n'}
+[3.437154] (limo_control) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.437195] (limo_control) StderrLine: {'line': b'\n'}
+[3.442936] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:53:101:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.443069] (limo_control) StderrLine: {'line': b'   53 | n: x=%.2f, y=%.2f, theta=%.2f", current_x_, \x1b[01;31m\x1b[Kcurrent_y_\x1b[m\x1b[K, current_theta_);\n'}
+[3.443128] (limo_control) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.443178] (limo_control) StderrLine: {'line': b'\n'}
+[3.451043] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:53:113:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_theta_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.451153] (limo_control) StderrLine: {'line': b'   53 | =%.2f, theta=%.2f", current_x_, current_y_, \x1b[01;31m\x1b[Kcurrent_theta_\x1b[m\x1b[K);\n'}
+[3.451218] (limo_control) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.451268] (limo_control) StderrLine: {'line': b'\n'}
+[3.456772] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:56:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.456891] (limo_control) StderrLine: {'line': b'   56 |         double dx = \x1b[01;31m\x1b[Kgoal_x_\x1b[m\x1b[K - current_x_;\n'}
+[3.456967] (limo_control) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.464002] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:56:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_x_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.464125] (limo_control) StderrLine: {'line': b'   56 |         double dx = goal_x_ - \x1b[01;31m\x1b[Kcurrent_x_\x1b[m\x1b[K;\n'}
+[3.464194] (limo_control) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.469888] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:57:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.470019] (limo_control) StderrLine: {'line': b'   57 |         double dy = \x1b[01;31m\x1b[Kgoal_y_\x1b[m\x1b[K - current_y_;\n'}
+[3.470080] (limo_control) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.474610] (-) TimerEvent: {}
+[3.476859] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:57:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_y_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.476990] (limo_control) StderrLine: {'line': b'   57 |         double dy = goal_y_ - \x1b[01;31m\x1b[Kcurrent_y_\x1b[m\x1b[K;\n'}
+[3.477048] (limo_control) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.485322] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:60:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_theta_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.485505] (limo_control) StderrLine: {'line': b'   60 |         double angle_diff = angle_to_goal - \x1b[01;31m\x1b[Kcurrent_theta_\x1b[m\x1b[K;\n'}
+[3.485573] (limo_control) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.493093] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:71:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_msg\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.493272] (limo_control) StderrLine: {'line': b'   71 |             \x1b[01;31m\x1b[Kcmd_vel_pub_\x1b[m\x1b[K->publish(cmd_vel_msg);\n'}
+[3.493338] (limo_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.493391] (limo_control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcmd_vel_msg\x1b[m\x1b[K\n'}
+[3.500773] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:94:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_pub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcmd_vel_msg\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.500917] (limo_control) StderrLine: {'line': b'   94 |             \x1b[01;31m\x1b[Kcmd_vel_pub_\x1b[m\x1b[K->publish(cmd_vel_msg);\n'}
+[3.500976] (limo_control) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.501026] (limo_control) StderrLine: {'line': b'      |             \x1b[32m\x1b[Kcmd_vel_msg\x1b[m\x1b[K\n'}
+[3.501074] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:97:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kprivate\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.501125] (limo_control) StderrLine: {'line': b'   97 | \x1b[01;31m\x1b[Kprivate\x1b[m\x1b[K:\n'}
+[3.501172] (limo_control) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.501786] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:109:12:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kgoal_theta_\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.501882] (limo_control) StderrLine: {'line': b'  109 |     double \x1b[01;35m\x1b[Kgoal_theta_\x1b[m\x1b[K;\n'}
+[3.501936] (limo_control) StderrLine: {'line': b'      |            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.506729] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:\x1b[m\x1b[K At global scope:\n'}
+[3.506843] (limo_control) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:118:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[3.506901] (limo_control) StderrLine: {'line': b'  118 | }\n'}
+[3.506950] (limo_control) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.575288] (-) TimerEvent: {}
+[3.681603] (-) TimerEvent: {}
+[3.788058] (-) TimerEvent: {}
+[3.894560] (-) TimerEvent: {}
+[3.999884] (-) TimerEvent: {}
+[4.106758] (-) TimerEvent: {}
+[4.213228] (-) TimerEvent: {}
+[4.319685] (-) TimerEvent: {}
+[4.425969] (-) TimerEvent: {}
+[4.532361] (-) TimerEvent: {}
+[4.638757] (-) TimerEvent: {}
+[4.745103] (-) TimerEvent: {}
+[4.851516] (-) TimerEvent: {}
+[4.957855] (-) TimerEvent: {}
+[5.063422] (-) TimerEvent: {}
+[5.169763] (-) TimerEvent: {}
+[5.276360] (-) TimerEvent: {}
+[5.382619] (-) TimerEvent: {}
+[5.489054] (-) TimerEvent: {}
+[5.595433] (-) TimerEvent: {}
+[5.701731] (-) TimerEvent: {}
+[5.808049] (-) TimerEvent: {}
+[5.914323] (-) TimerEvent: {}
+[6.020612] (-) TimerEvent: {}
+[6.087912] (limo_control) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/limo_control.dir/build.make:76: CMakeFiles/limo_control.dir/limo_controller.cpp.o] Error 1\n'}
+[6.088772] (limo_control) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limo_control.dir/all] Error 2\n'}
+[6.089076] (limo_control) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.092389] (limo_control) CommandEnded: {'returncode': 2}
+[6.104834] (limo_control) JobEnded: {'identifier': 'limo_control', 'rc': 2}
+[6.116376] (-) EventReactorShutdown: {}

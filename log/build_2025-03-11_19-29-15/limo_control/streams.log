@@ -1,0 +1,14 @@
+[0.048s] Invoking command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target limo_control[0m
+[0.188s] [ 50%] [32mBuilding CXX object CMakeFiles/limo_control.dir/limo_controller.cpp.o[0m
+[4.393s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:[m[K In member function ‘[01m[Kvoid LimoController::control_robot()[m[K’:
+[4.393s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:102:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Kdouble[m[K’
+[4.393s]   102 |         [01;31m[Kdouble[m[K distance_threshold = 0.05
+[4.394s]       |         [01;31m[K^~~~~~[m[K
+[4.396s] [01m[K/home/pkotta/ros2_ws/src/ros-task/workspace/limo_control/limo_controller.cpp:101:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle_threshold[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[4.396s]   101 |         double [01;35m[Kangle_threshold[m[K = 0.1
+[4.396s]       |                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[8.399s] gmake[2]: *** [CMakeFiles/limo_control.dir/build.make:76: CMakeFiles/limo_control.dir/limo_controller.cpp.o] Error 1
+[8.400s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/limo_control.dir/all] Error 2
+[8.400s] gmake: *** [Makefile:146: all] Error 2
+[8.403s] Invoked command in '/home/pkotta/ros2_ws/src/ros-task/build/limo_control' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pkotta/ros2_ws/src/ros-task/build/limo_control -- -j20 -l20

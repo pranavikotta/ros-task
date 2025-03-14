@@ -1,0 +1,17 @@
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/lib/limo_control/limo_control
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/launch/launch_for_controller.py
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/package_run_dependencies/limo_control
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/parent_prefix_path/limo_control
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.sh
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/ament_prefix_path.dsv
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.sh
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/environment/path.dsv
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.bash
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.sh
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.zsh
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/local_setup.dsv
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.dsv
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/ament_index/resource_index/packages/limo_control
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig.cmake
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/cmake/limo_controlConfig-version.cmake
+/home/pkotta/ros2_ws/src/ros-task/install/limo_control/share/limo_control/package.xml
